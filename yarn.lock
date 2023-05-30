@@ -7610,9 +7610,9 @@ __metadata:
   linkType: hard
 
 "@xmldom/xmldom@npm:^0.7.5":
-  version: 0.7.5
-  resolution: "@xmldom/xmldom@npm:0.7.5"
-  checksum: 768a1ca941bba8734f0c2d4ede971cc95a534cee0736d8ec472e38caa6c3a94c9693fa0aca27dc401ad554342cdf332c1717ceb11941533ec2d3b97aa07bfd9f
+  version: 0.7.10
+  resolution: "@xmldom/xmldom@npm:0.7.10"
+  checksum: 034e8b800e3b38c7bb3e02126603a5cdc266503ffb32ffbfc43cae9aa5f484d9518f013f414fce393da78d805764e14c739e05d239d554913ffccbdec4c7b8bc
   languageName: node
   linkType: hard
 
