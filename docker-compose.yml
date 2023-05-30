@@ -12,8 +12,9 @@ services:
       - "8911:8911"
     depends_on:
       - db
-    env_file:
-      - .env
+    environment:
+      - DATABASE_URL=postgresql://redwood:redwood@db:5432/redwood
+      - TEST_DATABASE_URL=postgresql://redwood:redwood@db:5432/redwood_test
 
   # Redwood Web
   web-serve:
