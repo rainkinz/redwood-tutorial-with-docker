@@ -7,7 +7,7 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
-      target: web-serve
+      target: api-serve
     ports:
       - "8911:8911"
     depends_on:
@@ -21,7 +21,7 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
-      target: api-serve
+      target: web-serve
     ports:
       - "8910:8910"
     depends_on:
